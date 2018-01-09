@@ -23,12 +23,10 @@ $(function() {
     alert(newSentence)
   };
 
-  if(question === 's'){
+  if(question === 's') {
     swapCap();
-  };
-  elseif {
-      capFirst();
-    };
-
-
-});
+  }
+  else if(question === 'c') {
+      capFirst()
+    }
+  });
